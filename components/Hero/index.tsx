@@ -3,9 +3,9 @@ import 'swiper/swiper-bundle.css';
 
 const Hero = () => {
   const slides = [
-    <img src="slide1.jpg" alt="Slide 1" />,
-    <img src="slide2.jpg" alt="Slide 2" />,
-    <img src="slide3.jpg" alt="Slide 3" />,
+    <img key="slide1" src="slide1.jpg" alt="Slide 1" />,
+    <img key="slide2" src="slide2.jpg" alt="Slide 2" />,
+    <img key="slide3" src="slide3.jpg" alt="Slide 3" />,
   ];
 
   return (
@@ -25,22 +25,22 @@ const Hero = () => {
                   Streamer va Kanal Adminlari uchun ehson platforma
                 </h1>
                 <p className="dark:text-body-color-dark mb-12 text-base !leading-relaxed text-body-color sm:text-lg md:text-xl">
-                  Donatlar.uz sizga sevimli streamerlaringizni va kanal adminlaringizni qo'llab-quvvatlash imkonini beradi.
-                  Bizning platformamiz orqali siz o'z hissangizni qo'shib, ijodiy jarayonlarga yordam bera olasiz.
-                  Biz bilan bog'laning va sevimli kanal va streamerlaringizni qo'llab-quvvatlang! Donatlar.uz - bu sizning ijodingiz va ko'nglingizga qo'shilgan hissa!
+                  Donatlar.uz sizga sevimli streamerlaringizni va kanal adminlaringizni qo&apos;llab-quvvatlash imkonini beradi.
+                  Bizning platformamiz orqali siz o&apos;z hissangizni qoshib, ijodiy jarayonlarga yordam bera olasiz.
+                  Biz bilan bog&apos;laning va sevimli kanal va streamerlaringizni qo&apos;llab-quvvatlang! Donatlar.uz - bu sizning ijodingiz va ko&apos;nglingizga qo&apos;shilgan hissa!
                 </p>
                 <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
                   <Link
                     href=""
                     className="rounded-sm bg-primary px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80"
                   >
-                    🔥 Telegram kanal 
+                    🔥 Telegram kanal
                   </Link>
                   <Link
                     href=""
                     className="inline-block rounded-sm bg-black px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-black/90 dark:bg-white/10 dark:text-white dark:hover:bg-white/5"
                   >
-                   Botni  ishlatish
+                    Botni  ishlatish
                   </Link>
                 </div>
               </div>
